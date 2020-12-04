@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(37, 35, 35);
+    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Signika', sans-serif;
+}
+.menuBar{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content:space-around;
+}
+font{
+    color: orange;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+span{
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+.menu a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;  
+}
+.menu li:hover a{
+    color: orange;
+}
+/*Anasayfa Bölümü*/
+.anasayfa{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("yeni.jpg");
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.anasayfa .anayazi{
+    color:white;
+    font-size: 30px;
+    font-family: 'Sansita Swashed', cursive;
+    margin-bottom: 10px;
+}
+
+.anasayfa a{
+    color:black;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.3);
+    transition: 0.5s;
+    
+}
+.anasayfa a:hover{
+    background-color: orange;
+    border: 1px solid orange;
+}
+/*orta alan bölümü*/
+.ortaAlan{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.orta{
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px 2px rgba(20,23, 28, .15);
+   
+    width: 33.3%;
+    margin: 5px 1px;
+   /* background:linear-gradient(rgba(8, 1, 1, 0.5),rgba(0,0,0,0.8));*/
+   background-color:wheat;
+
+}
+
+.icerik{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    text-align: left;  
+}
+.ortaAlan .orta .icerik h3{
+    border-bottom: 1px solid orange;
+    padding-bottom: 15px;
+}
+.orta p{
+    text-indent: 20px;
+}
+/*orta alan2 bölümü*/
+.ortaAlan2{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    background-color:wheat;
+}
+.kurs{
+    height: 20%;
+    width: 100%;
+    margin: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px 2px rgba(20,23, 28, .15);
+    border-radius: 5px;
+}
+.kurs .icerik{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 15px;
+    text-align: left;
+    font-size: 15px;   
+}
+.kurs .icerik img{
+    width: 30%;
+    height: 10%;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+.micerik p small{
+   color:gray;
+}
+.micerik p strong:hover{
+    color: orangered;
+    cursor: pointer;
+}
+
+
+/*Alt alan bölümü*/
+.altAlan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color:black;
+
+}
+.altAlan h3{
+    color: whitesmoke;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    color:gray;
+    text-decoration: none;
+    font-size: 15 ;
+    width: 30vw;
+    height: 150px;
+    
+}
+.altAlan .icerik{
+   text-align: left;
+    
+}
+input[type=text] {
+    width: 100%;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    
+}
+
+input[type=email] {
+
+    width: 100%;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}   
+input[type=submit] {
+    background-color: orange;
+    width: 100%;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 2px solid orange;
+    border-radius: 4px;
+    
+}
+.altAlan .logo i{
+   margin-bottom: 10px;
+   margin-right: 15px;
+   margin-top: 10px;
+   font-size:23px;
+   color: white;
+}
+.logo i:hover{
+    color: orange;
+}
